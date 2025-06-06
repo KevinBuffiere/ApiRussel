@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Tableau de bord - Russell Harbor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <button id="logoutBtn" onclick="logout()">Déconnexion</button>
+  </nav>
+
+  <div id="userInfo"></div>
+
+  <section>
+    <h2>Liste des Catways</h2>
+    <form id="addCatwayForm">
+      <input type="number" id="catwayNumber" placeholder="Numéro" required>
+      <select id="catwayType">
+        <option value="short">Short</option>
+        <option value="long">Long</option>
+      </select>
+      <input type="text" id="catwayState" placeholder="État" required>
+      <button type="submit">Ajouter</button>
+    </form>
+    <ul id="catwayList"></ul>
+  </section>
+
+  <section>
+    <h2>Liste des Réservations</h2>
+    <form id="addReservationForm">
+      <input type="number" id="resCatwayNumber" placeholder="Catway #" required>
+      <input type="text" id="clientName" placeholder="Nom client" required>
+      <input type="text" id="boatName" placeholder="Nom bateau" required>
+      <input type="date" id="startDate" required>
+      <input type="date" id="endDate" required>
+      <button type="submit">Ajouter</button>
+    </form>
+    <ul id="reservationList"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

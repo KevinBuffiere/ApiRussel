@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+nav {
+  background-color: #34495e;
+  padding: 10px;
+  text-align: right;
+}
+
+#logoutBtn {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+#logoutBtn:hover {
+  background-color: #c0392b;
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+}
+
+form, ul {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+ul li {
+  list-style: none;
+  background: #ecf0f1;
+  margin: 8px 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+}
+
+.actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+.actions button:hover {
+  color: #e74c3c;
+}
+
+#userInfo {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.1em;
+  color: #555;
+}

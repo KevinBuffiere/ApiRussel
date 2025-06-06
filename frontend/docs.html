@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation de l'API - Russell Harbor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📘 Documentation de l’API Russell Harbor</h1>
+
+  <h2>Authentification</h2>
+  <ul>
+    <li><b>POST /api/auth/login</b> – Connexion d’un utilisateur (email + mot de passe)</li>
+  </ul>
+
+  <h2>Catways</h2>
+  <ul>
+    <li><b>GET /api/catways</b> – Liste de tous les catways</li>
+    <li><b>POST /api/catways</b> – Ajouter un catway</li>
+    <li><b>PUT /api/catways/:number</b> – Modifier un catway</li>
+    <li><b>DELETE /api/catways/:number</b> – Supprimer un catway</li>
+  </ul>
+
+  <h2>Réservations</h2>
+  <ul>
+    <li><b>GET /api/reservations</b> – Liste des réservations</li>
+    <li><b>POST /api/reservations</b> – Ajouter une réservation</li>
+    <li><b>PUT /api/reservations/:id</b> – Modifier une réservation</li>
+    <li><b>DELETE /api/reservations/:id</b> – Supprimer une réservation</li>
+  </ul>
+
+  <h2>Utilisateurs</h2>
+  <ul>
+    <li><b>GET /api/users</b> – Liste des utilisateurs</li>
+    <li><b>POST /api/users</b> – Créer un utilisateur</li>
+    <li><b>GET /api/users/:email</b> – Obtenir un utilisateur par email</li>
+    <li><b>PUT /api/users/:email</b> – Modifier un utilisateur</li>
+    <li><b>DELETE /api/users/:email</b> – Supprimer un utilisateur</li>
+  </ul>
+
+  <a href="index.html">⬅️ Retour à l’accueil</a>
+</body>
+</html>
